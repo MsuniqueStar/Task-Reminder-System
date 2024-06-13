@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Daily_Task_Reminder_system">
+			<description>The "Daily Task and Reminder System" significantly enhance productivity and organization for both students and faculty by providing a centralized platform to manage and track their daily activities and academic responsibilities.</description>
+			<and abstract="true" name="Priority Settings">
+				<description>Users can assign priorities to tasks (e.g., high, medium, low) to manage their focus and urgency.</description>
+				<feature mandatory="true" name="Priority Levels">
+					<description>Options to set task priority (high, medium, low).</description>
+				</feature>
+				<feature mandatory="true" name="Color Coding">
+					<description>Visual representation of priority levels with colors.</description>
+				</feature>
+				<feature abstract="true" name="Custom Priority Labels">
+					<description>Users can create custom priority labels.</description>
+				</feature>
+			</and>
+			<and abstract="true" name="Task creation">
+				<description>Users can create tasks and specify details like title, description, and category (e.g., academic, personal).</description>
+				<feature mandatory="true" name="Title Input">
+					<description>Field to enter the task's title.</description>
+				</feature>
+				<feature mandatory="true" name="Description">
+					<description>Area for a detailed task description.</description>
+				</feature>
+				<feature mandatory="true" name="Category">
+					<description>Dropdown or tags for categorizing tasks.</description>
+				</feature>
+			</and>
+			<and abstract="true" name="Due Dates">
+				<description>Ability to set deadlines for tasks which aids in planning and time management.</description>
+				<feature mandatory="true" name="Calender Picker">
+					<description>Interface for selecting task due dates.</description>
+				</feature>
+				<feature mandatory="true" name="Time Selection">
+					<description>Option to specify the exact deadline time.</description>
+				</feature>
+				<feature abstract="true" name="Recurring Due Dates">
+					<description>Setting for repeating task intervals.</description>
+				</feature>
+				<feature abstract="true" name="Deadline Reminders">
+					<description>Reminders for approaching deadlines.</description>
+				</feature>
+				<feature abstract="true" name="Time Zone Support">
+					<description>Adjusts due dates based on user’s time zone.</description>
+				</feature>
+			</and>
+			<and abstract="true" name="Reminder Notifications">
+				<description>Automated notifications to remind users of upcoming due dates or milestones.</description>
+				<feature mandatory="true" name="Preferences">
+					<description>Settings for when and how to receive reminders.</description>
+				</feature>
+				<feature mandatory="true" name="Multiple Reminders">
+					<description>Option to set several reminders for a task.</description>
+				</feature>
+				<feature abstract="true" name="Snooze Option">
+					<description>Ability to snooze reminders for a period.</description>
+				</feature>
+			</and>
+			<and abstract="true" name="Recurring Tasks">
+				<description>Option to set tasks as recurring daily, weekly, monthly, or custom intervals, useful for regular activities like meetings or study sessions.</description>
+				<feature mandatory="true" name="Frequency">
+					<description>Options for task recurrence intervals.</description>
+				</feature>
+				<feature mandatory="true" name="End Date">
+					<description>Specify an end date for recurring tasks.</description>
+				</feature>
+				<feature abstract="true" name="Edit Recurrence">
+					<description>Modify settings for existing recurring tasks.</description>
+				</feature>
+			</and>
+		</and>
+	</struct>
+</featureModel>

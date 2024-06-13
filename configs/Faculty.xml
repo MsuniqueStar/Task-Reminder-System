@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="Daily_Task_Reminder_system"/>
+	<feature automatic="selected" name="Priority Settings"/>
+	<feature manual="selected" name="Priority Levels"/>
+	<feature manual="selected" name="Color Coding"/>
+	<feature name="Custom Priority Labels"/>
+	<feature automatic="selected" name="Task creation"/>
+	<feature manual="selected" name="Title Input"/>
+	<feature manual="selected" name="Description"/>
+	<feature manual="selected" name="Category"/>
+	<feature automatic="selected" name="Due Dates"/>
+	<feature manual="selected" name="Calender Picker"/>
+	<feature manual="selected" name="Time Selection"/>
+	<feature manual="selected" name="Recurring Due Dates"/>
+	<feature manual="selected" name="Deadline Reminders"/>
+	<feature manual="selected" name="Time Zone Support"/>
+	<feature automatic="selected" name="Reminder Notifications"/>
+	<feature manual="selected" name="Preferences"/>
+	<feature manual="selected" name="Multiple Reminders"/>
+	<feature manual="selected" name="Snooze Option"/>
+	<feature automatic="selected" name="Recurring Tasks"/>
+	<feature manual="selected" name="Frequency"/>
+	<feature manual="selected" name="End Date"/>
+	<feature manual="selected" name="Edit Recurrence"/>
+</configuration>
